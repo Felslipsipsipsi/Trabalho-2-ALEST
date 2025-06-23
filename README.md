@@ -4,11 +4,11 @@ Nesse trabalho, foi criado uma árvore de pesquisa , com uma implementação que
 
 ## Função do programa
 
-** Leitura de arquivo .txt**
+**Leitura de arquivo .txt**
 
 As linhas é um número. Todos os números menos o último, são inseridos na árvore e o número final é a **chave a ser buscada**.
 
-** Faz os caminhamentos:**
+**Faz os caminhamentos:**
    - Pré-ordem → `preordem.txt`
    - Pós-ordem → `posordem.txt`
    - Central → `central.txt`

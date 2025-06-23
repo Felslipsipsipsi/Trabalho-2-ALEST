@@ -1,6 +1,6 @@
 # Trabalho Árvore Binária de Pesquis com Leitura e Escrita de Arquivos
 
-Nesse trabalho, foi criado uma árvore de pesquisa , com uma implementação que funciona a partir de leitura de arquivo `.txt`. Também realiza os caminhamentos requisitados.
+Nesse trabalho, foi criado uma árvore de pesquisa , com uma implementação que funciona a partir de leitura de arquivo `.txt`. Também realiza os caminhamentos requisitados. Nesse trabalho foi usado IA como "supervisor" para otimizar ou tentar resolver partes em que não conseguia resolver.
 
 ## Função do programa
 

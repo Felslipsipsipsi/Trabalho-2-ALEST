@@ -1,4 +1,4 @@
-package aula28_arvorebinariapesquisa;
+package arvorebinariapesquisa;
 
 public class Fila {
     private class Elemento {

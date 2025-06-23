@@ -1,69 +1,36 @@
-# 🌳 Projeto: Árvore Binária de Pesquisa com Leitura e Escrita de Arquivos
+# Trabalho Árvore Binária de Pesquis com Leitura e Escrita de Arquivos
 
-Este projeto implementa uma Árvore Binária de Pesquisa (ABP) a partir da leitura de um arquivo `.txt`. A aplicação realiza todos os caminhamentos da árvore, busca uma chave específica e gera arquivos com os resultados.
+Nesse trabalho, foi criado uma árvore de pesquisa , com uma implementação que funciona a partir de leitura de arquivo `.txt`. Também realiza os caminhamentos requisitados.
 
-## 📁 Estrutura de Arquivos
+## Função do programa
 
-```
-📂 arvorebinariapesquisa
- ├── App.java
- ├── ArvoreBinariaPesquisa.java
- ├── Arquivo.java
- └── frutas.txt (arquivo de entrada)
-```
+**Leitura de arquivo .txt**
+As linhas é um número. Todos os números menos o último, são inseridos na árvore e o número final é a **chave a ser buscada**.
 
----
-
-## 🚀 O que o programa faz
-
-1. **Lê um arquivo .txt**
-   - Cada linha é um número.
-   - Todos os números, menos o último, são inseridos na árvore.
-   - O último número é a **chave a ser buscada**.
-
-2. **Constrói a árvore na ordem lida**
-
-3. **Faz os caminhamentos:**
+**Faz os caminhamentos:**
    - Pré-ordem → `preordem.txt`
    - Pós-ordem → `posordem.txt`
    - Central → `central.txt`
    - Largura → `largura.txt`
 
-4. **Faz a busca da última chave**
-   - Gera `resultado.txt` com o caminho de busca
-   - Informa se encontrou ou não a chave
-   - Mostra quantos nodos foram visitados
+**Faz a busca da última chave**
+Gera o `resultado.txt`, informando se encontrou ou não a chave e quantos nodos foram visitados.
 
 ---
 
-## 📄 Arquivos explicados
+## Arquivos
 
-### ✅ App.java
-Classe principal que:
-- Lê o arquivo usando `Arquivo.ler`
-- Constrói a árvore com `adicionar()`
-- Executa todos os caminhamentos
-- Chama o método de busca com rastreamento
-- Salva todos os resultados usando `Arquivo.gravar`
+### App.java
+Constrói a árvore, lê o arquivo e executa, além de salvar resultados.
 
-### ✅ ArvoreBinariaPesquisa.java
-Classe da árvore binária com:
-- `adicionar(int chave)`
-- `caminharPreOrdem()`
-- `caminharPosOrdem()`
-- `caminharCentral()`
-- `caminharLargura()`
-- `buscarComRastro(int chave)`
+### ArvoreBinariaPesquisa.java
+Classe da árvore binária com adicionar, pré/pós-ordem, central e largura.
 
-### ✅ Arquivo.java
-Classe que:
-- Lê arquivos `.txt` usando `Scanner`
-- Grava arquivos `.txt` com `PrintStream`
-- Usa só ferramentas simples que vimos na aula
-
+### Arquivo.java
+Lê os arquivos e grava o `.txt` com no geral coisas ensinadas na aula.
 ---
 
-## 🧾 Exemplo de frutas.txt
+##  Exemplo.txt
 ```txt
 30
 20
@@ -74,12 +41,9 @@ Classe que:
 25
 ```
 
-- Os primeiros valores são inseridos na árvore.
-- O último (`25`) é o número a ser procurado.
-
 ---
 
-## 📤 Saídas geradas
+## Saídas geradas
 - `preordem.txt`
 - `posordem.txt`
 - `central.txt`
@@ -93,17 +57,4 @@ Exemplo de `resultado.txt`:
 Achou
 ```
 
----
-
-## 💡 Observações
-
-- O código não usa nada avançado como `BufferedReader` ou `try/catch`.
-- Tudo foi feito com base nas aulas e exemplos vistos.
-- Comentários e estrutura facilitam a leitura e entendimento.
-- O código está pronto para ser testado, adaptado e evoluído.
-
----
-
-## 👨‍🏫 Entrega
-Suba o projeto no GitHub e envie **apenas o link do repositório no Moodle**, garantindo que o professor tem acesso.
 

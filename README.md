@@ -9,7 +9,7 @@ Compile o projeto:
 
 Execute o programa:
 
-## Exemplo do `entrada.txt`
+## Exemplo do entrada
 
 ```
 30

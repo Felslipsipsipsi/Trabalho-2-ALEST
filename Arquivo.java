@@ -1,4 +1,4 @@
-package aula28_arvorebinariapesquisa;
+package arvorebinariapesquisa;
 
 import java.io.*;
 import java.util.ArrayList;

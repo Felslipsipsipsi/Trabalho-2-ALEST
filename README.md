@@ -6,7 +6,7 @@ Nesse trabalho, foi criado uma árvore de pesquisa , com uma implementação que
 
 **Leitura de arquivo .txt**
 
-As linhas é um número. Todos os números menos o último, são inseridos na árvore e o número final é a **chave a ser buscada**.
+As linhas é um número. Todos os números menos o último, são inseridos na árvore e o número final é a chave a ser buscada.
 
 **Faz os caminhamentos:**
    - Pré-ordem → `preordem.txt`
@@ -23,12 +23,15 @@ Gera o `resultado.txt`, informando se encontrou ou não a chave e quantos nodos 
 ## Arquivos
 
 ### App.java
+
 Constrói a árvore, lê o arquivo e executa, além de salvar resultados.
 
 ### ArvoreBinariaPesquisa.java
+
 Classe da árvore binária com adicionar, pré/pós-ordem, central e largura.
 
 ### Arquivo.java
+
 Lê os arquivos e grava o `.txt` com no geral coisas ensinadas na aula.
 ---
 
